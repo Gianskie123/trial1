@@ -142,3 +142,49 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participant styling */
+.participant-list {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.participant-card {
+  background-color: #e3eafc;
+  border: 1px solid #b3c6f7;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.participant-card .avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #c5cae9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #1a237e;
+  font-size: 18px;
+}
+
+.participant-card .name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a237e;
+}
+
+.participant-card .role {
+  margin-left: auto;
+  font-size: 14px;
+  color: #3949ab;
+  background: #e8eaf6;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
